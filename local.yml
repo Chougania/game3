@@ -1,3 +1,9 @@
+database:
+  address: dpg-d65k5rngi27c73c0vcc0-a:5432
+  user: nakama_db_62ij_user
+  password: VAdwVdmfnH0ylZpqJfXFguSFAj8O2Gpk
+  name: nakama_db_62ij
+
 console:
   max_message_size_bytes: 409600
 logger:
@@ -10,9 +16,3 @@ socket:
   max_request_size_bytes: 131072
 matchmaker:
   interval_sec: 3
-database:
-  address: dpg-d65k5rngi27c73c0vcc0-a:5432
-  user: nakama_db_62ij_user
-  password: VAdwVdmfnH0ylZpqJfXFguSFAj8O2Gpk
-  name: nakama_db_62ij
-
