@@ -1,8 +1,11 @@
 database:
-  address: dpg-d65k5rngi27c73c0vcc0-a:5432
+  address: dpg-d65k5rngi27c73c0vcc0-a.render.com:5432
   user: nakama_db_62ij_user
   password: VAdwVdmfnH0ylZpqJfXFguSFAj8O2Gpk
   name: nakama_db_62ij
+  ssl: true
+  sslmode: require
+
 
 console:
   max_message_size_bytes: 409600
